@@ -1,7 +1,7 @@
-name: "myproject"
+name: myproject
 output_dir: ../docs
 navbar:
-  title: "myproject"
+  title: myproject
   left:
   - text: Home
     icon: fa-home
@@ -12,29 +12,23 @@ navbar:
   - text: Project
     icon: fa-project-diagram
     href: project.html
-  - text: "More"
+  - text: More
     icon: fa-gear
     menu:
-    - text: "Heading 1"
-    - text: "Page A"
+    - text: Heading 1
+    - text: Page A
       href: page-a.html
-    - text: "Page B"
+    - text: Page B
       href: page-b.html
-    - text: "---------"
-    - text: "Heading 2"
-    - text: "Page C"
+    - text: '---------'
+    - text: Heading 2
+    - text: Page C
       href: page-c.html
-    - text: "Page D"
-
+    - text: Page D
   right:
-  - text: License
-    href: license.html
-  - icon: fa-question fa-lg
-    href: https://example.com
-
-#  Note that individual documents can also include their own output options, 
-# which will be merged with the common options at render time.
-
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/ahmadrezauf/myproject
 output:
   workflowr::wflow_html:
     toc: yes
