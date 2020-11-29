@@ -9,3 +9,4 @@ editor_options:
 ---
 
 Welcome to my research website.
+Click on this [link](first-analysis.html) to see the histogram of iris data.
