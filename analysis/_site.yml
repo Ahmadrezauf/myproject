@@ -11,6 +11,12 @@ navbar:
     href: project.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-question fa-lg
+    href: https://example.com
+
+#  Note that individual documents can also include their own output options, 
+# which will be merged with the common options at render time.
 
 output:
   workflowr::wflow_html:
