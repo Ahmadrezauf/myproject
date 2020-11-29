@@ -1,6 +1,5 @@
 name: "myproject"
 output_dir: ../docs
-type: inverse
 navbar:
   title: "myproject"
   left:
@@ -10,7 +9,6 @@ navbar:
     href: about.html
   - text: Project
     href: project.html
-
   right:
   - text: License
     href: license.html
