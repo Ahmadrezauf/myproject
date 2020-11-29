@@ -1,5 +1,6 @@
 name: "myproject"
 output_dir: ../docs
+type: inverse
 navbar:
   title: "myproject"
   left:
@@ -9,11 +10,10 @@ navbar:
     href: about.html
   - text: Project
     href: project.html
+
+  right:
   - text: License
     href: license.html
-  right:
-  - icon: fa-question fa-lg
-    href: https://example.com
 
 #  Note that individual documents can also include their own output options, 
 # which will be merged with the common options at render time.
