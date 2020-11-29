@@ -31,10 +31,9 @@ navbar:
     href: https://github.com/ahmadrezauf/myproject
 output:
   workflowr::wflow_html:
-    toc: yes
-    toc_float: yes
+    toc: true
+    toc_float: true
     theme: cosmo
     highlight: textmate
-    css: style.css
     include:
       after_body: footer.html
