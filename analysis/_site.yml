@@ -26,6 +26,8 @@ navbar:
   right:
   - text: License
     href: license.html
+  - icon: fa-question fa-lg
+    href: https://example.com
 
 #  Note that individual documents can also include their own output options, 
 # which will be merged with the common options at render time.
