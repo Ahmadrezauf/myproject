@@ -10,6 +10,7 @@ navbar:
     icon: fa-info
     href: about.html
   - text: Project
+    icon: project-diagram
     href: project.html
   - text: "More"
     icon: fa-gear
