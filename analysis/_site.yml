@@ -7,11 +7,16 @@ navbar:
     href: index.html
   - text: About
     href: about.html
+  - text: Project
+    href: project.html
   - text: License
     href: license.html
+
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
     theme: cosmo
     highlight: textmate
+    include:
+      after_body: footer.html
