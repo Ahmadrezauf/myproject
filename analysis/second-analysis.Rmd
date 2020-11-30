@@ -11,7 +11,5 @@ editor_options:
 
 Here is workflowr in a nutshell:
 
-```{r fig.align="center", out.width = "650px", echo=FALSE}
-knitr::include_graphics("./docs/assets/hqdefault.jpg")
-```
+![workflowr](./docs/assets/hqdefault.jpg)
 
