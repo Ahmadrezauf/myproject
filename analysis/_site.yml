@@ -25,6 +25,9 @@ navbar:
     - text: Page C
       href: page-c.html
     - text: Page D
+    - text: Page C
+      icon: fa-sticky-note
+      href: page-c.html
   right:
   - icon: fa-github
     text: Source code
