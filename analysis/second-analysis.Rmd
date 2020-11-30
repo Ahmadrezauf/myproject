@@ -1,0 +1,15 @@
+---
+title: "second-analysis"
+author: "ahmadrezauf"
+date: "2020-11-30"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r fig.align="center", out.width = "650px", echo=FALSE}
+knitr::include_graphics("./docs/assets/hqdefault.jpg")
+```
+
